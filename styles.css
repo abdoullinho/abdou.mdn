@@ -1,0 +1,344 @@
+body {
+  background-color: #000000 ;
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradient-animation {
+  0% {	
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+.logo {
+
+  position: absolute;
+  top: -30px;
+  left: 4px;
+  width: 300px;
+  height: auto;
+  z-index: 1;
+
+
+}
+.logo:hover {
+  transform: scale(1.05); 
+  transition: transform 0.1s ease; 
+}
+
+.menu {
+  border-bottom: 7px solid black;
+  
+  background: linear-gradient(312deg,#ddebe3,#6830d9,#f402f5);
+  background-size: 180% 180%;
+  animation: gradient-animation 3s ease infinite;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;/* Ajoute une bordure noire en bas du menu */
+  
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 450px;
+  margin-top: -15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: -100px; 
+  
+}
+
+.menu li:last-child {
+  margin-right: 0; 
+  
+}
+
+.menu a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color:transparent;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 70px;
+  font-family: Impact, sans-serif;
+  font-size: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  text-shadow: 
+  -1px -1px 0 #FFFFFF,  
+  1px -1px 0 #FFFFFF,
+  -1px 1px 0 #FFFFFF,
+  1px 1px 0 #FFFFFF;
+}
+
+.menu a:hover {
+  background-color: transparent;
+  padding: 12px 20px;
+  transform: scale(1.5); 
+  transition: transform 0.1s ease; 
+  color: #000000;
+}
+
+
+
+
+.P1 {
+color: #fff;
+border-radius: 5px;
+margin: 10px;
+font-family: Impact, sans-serif;
+font-size: 90px;
+margin-top: 65px;
+margin-left: 30px;
+position: absolute;
+}
+.P1:hover {
+transform: scale(1.1); 
+transition: transform 0.1s ease; 
+}
+
+.typewriter-container {
+  display: flex;
+  justify-content: flex-start;
+  
+  
+}
+.typewriter p {
+  font-size: 70px;
+  font-family : "Lilita One", sans-serif ;
+  font-weight: lighter;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation: typing 1.5s steps(10000000);
+  margin-left: 10px;
+  color: #ffffff;
+  
+  
+}
+.typewriter p::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 1px;
+  background: #ffffff;
+  right: 0;
+  top: 0;
+  animation: cursor 1s infinite;
+  
+}
+
+@keyframes typing {
+  from {width:0}
+  to {width: 100%;}
+}
+
+@keyframes cursor {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.text1 {
+  font-family : "Lilita One", sans-serif ;
+  font-size: 40px;
+  color: #ffffff;
+  align-content: center;
+  margin-left: 600px;
+  margin-top: 10px;
+ 
+
+}
+
+.cv {
+  margin-top: 20px;
+  margin-left: 170px;
+  height: 770px;
+  transition: transform 0.4s ease; 
+
+}
+
+.cv:hover {
+  transform: scale(1.03); 
+}
+.bouton-telecharger {
+  font-family: "Lilita One", sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  padding: 1px 20px;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #6830d9; /* Bordure rose */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  height: 40px; 
+  width: 190px;
+  text-align: center;
+  padding-top: 8px;
+  margin-top: 360px;
+  margin-left: 280px;
+  
+}
+
+.bouton-telecharger:hover {
+  background-color: #6830d9; /* Légère variation de couleur au survol */
+
+}
+
+
+.bouton2{
+  font-family: "Lilita One", sans-serif;
+  background:#ffffff;
+  color:#000000;
+  border:none;
+  position:relative;
+  height:250px;
+  width: 300px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  margin-top: 336px;
+  margin-left: 160px;
+  margin-right: 200px;
+
+  
+}
+.bouton2:hover{
+  background:#000000;
+  color:#ffffff;
+}
+.bouton2:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #6830d9;
+  transition:200ms ease all;
+}
+.bouton2:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.bouton2:hover:before,button:hover:after{
+  width:100%;
+  transition:200ms ease all;
+}
+.text3 {
+  font-family : "Lilita One", sans-serif ;
+  font-size: 40px;
+  color: #ffffff;
+margin-top: 350px;
+margin-left: -950px;
+
+}
+
+.bouton2stage1{
+
+
+  font-family: "Lilita One", sans-serif;
+  background:#ffffff;
+  color:#000000;
+  border:none;
+  position:relative;
+  height:60px;
+  width: auto;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  margin-top: 86px;
+  margin-left: 380px;
+  margin-right: -190px;
+}
+.bouton2stage1:hover{
+  background:#000000;
+  color:#ffffff;
+}
+.bouton2stage1:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #6830d9;
+  transition:300ms ease all;
+}
+.bouton2stage1:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.bouton2stage1:hover:before,button:hover:after{
+  width:100%;
+  transition:300ms ease all;
+}
+
+.mms{
+height: 120px;
+margin-left: 313px;
+margin-top: 7px;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+}
+
+.mms :hover {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
+.funelior{
+  height: 120px;
+  margin-left: 986px;
+  margin-top: -119px;
+  -webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+  
+  }
+
+  .funelior :hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  .text3{
+
+font-size: 30px;
+margin-left: -1000px;
+
+  }
