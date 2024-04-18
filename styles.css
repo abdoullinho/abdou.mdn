@@ -506,3 +506,67 @@ margin-top: -150px;   }
         margin-left: 1440px;
         margin-top: 89px;
        }
+       .txtfin{
+
+        font-family : "Lilita One", sans-serif ;
+        font-size: 40px;
+        color: #ffffff;
+        align-content: center;
+        margin-left: -405px;
+        margin-top: 300px;
+       }
+
+       .i10{
+
+        margin-top: 100px;
+        width: 150px;
+        height: auto;
+        margin-left: 400px;
+      
+      }   
+
+
+      
+
+
+      .i11{
+
+        margin-top: 100px;
+        width: 130px;
+        height: auto;
+        margin-left: -500px;
+      
+      }  
+      .i12{
+
+        margin-top: 100px;
+        width: 150px;
+        height: auto;
+        margin-left: 580px;
+      -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-ou
+      }  
+
+      .ai20{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #FFFFFF;
+        margin-top: 20px;
+        margin-left: 35px;
+      }
+
+      .ai21{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: #FFFFFF;
+                margin-top: -35px;
+                margin-left: 425px;
+              }
+
+              .ai22{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        color: #FFFFFF;
+                        margin-top: -40px;
+                        margin-left: 790px;
+                        
+                      }
