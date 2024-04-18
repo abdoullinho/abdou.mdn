@@ -577,4 +577,23 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         margin-top: 230px;
                       }
 
-                     
+                      .petit-bouton {
+                        padding: 10px 20px; 
+                        font-size: 30px; 
+                        background-color: #6830d9; 
+                        color: black; 
+                        border: none; 
+                        border-radius: 3px; 
+                        cursor: pointer; 
+                        text-decoration: none; 
+                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                        margin-left: 1400px;
+                        margin-bottom: 100px;
+                        margin-top: 1000px;
+                        height: 500px;
+                        width: 500px;
+                    }
+                    
+                    .petit-bouton:hover {
+                        background-color: #ffffff; 
+                    }
