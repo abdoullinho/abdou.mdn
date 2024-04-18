@@ -512,7 +512,7 @@ margin-top: -150px;   }
         font-size: 40px;
         color: #ffffff;
         align-content: center;
-        margin-left: -405px;
+        margin-left: -205px;
         margin-top: 300px;
        }
 
@@ -543,10 +543,7 @@ margin-top: -150px;   }
         width: 150px;
         height: auto;
         margin-left: 580px;
-      -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-ou
+    
       }  
 
       .ai20{
