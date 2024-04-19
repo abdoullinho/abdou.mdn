@@ -626,3 +626,127 @@ margin-left: -600px;
       .grille2:hover {
         transform: scale(1.3); 
       }
+
+      .ppe{
+
+
+        font-family: "Kanit", sans-serif;
+        font-size: 30px;
+        color: #ffffff;
+        align-content: center;
+        margin-left: -448px;
+        margin-top: 230px;
+      }
+
+      .ppe1{
+
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 44px;
+        color: #ffffff;
+        align-content: center;
+        margin-left: 80px;
+        margin-top: 150px;
+      }
+
+      .ppeb {
+        padding: 2px 5px; 
+        font-size: 10px; 
+        background-color: #6830d9; 
+        color: black; 
+        border: none; 
+        border-radius: 3px; 
+        cursor: pointer; 
+        text-decoration: none; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+    }
+    
+    .ppeb:hover {
+        background-color: #ffffff; 
+    }
+
+    .ppeb1 {
+      padding: 2px 5px; 
+      font-size: 10px; 
+      background-color: #6830d9; 
+      color: black; 
+      border: none; 
+      border-radius: 3px; 
+      cursor: pointer; 
+      text-decoration: none; 
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+  }
+  
+  .ppeb1:hover {
+      background-color: #ffffff; 
+  }
+
+  .ppeb2 {
+    padding: 2px 5px; 
+    font-size: 10px; 
+    background-color: #6830d9; 
+    color: black; 
+    border: none; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+.ppeb2:hover {
+    background-color: #ffffff; 
+}
+
+.ppeb3 {
+  padding: 2px 5px; 
+  font-size: 10px; 
+  background-color: #6830d9; 
+  color: black; 
+  border: none; 
+  border-radius: 3px; 
+  cursor: pointer; 
+  text-decoration: none; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.ppeb3:hover {
+  background-color: #ffffff; 
+}
+
+.ppeb4 {
+  padding: 2px 5px; 
+  font-size: 10px; 
+  background-color: #6830d9; 
+  color: black; 
+  border: none; 
+  border-radius: 3px; 
+  cursor: pointer; 
+  text-decoration: none; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+
+.ppeb4:hover {
+  background-color: #ffffff; 
+}
+
+.ppeb5 {
+  padding: 2px 5px; 
+  font-size: 10px; 
+  background-color: #6830d9; 
+  color: black; 
+  border: none; 
+  border-radius: 3px; 
+  cursor: pointer; 
+  text-decoration: none; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ppeb5:hover {
+  background-color: #ffffff; 
+}
+
