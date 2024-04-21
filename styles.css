@@ -977,3 +977,45 @@ margin-left: 300px;
         margin-top: -850px;
         margin-bottom: 80px;
 }
+
+.csharptxt{
+
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  align-content: center;
+  margin-left: -590px;
+  margin-top: 230px;
+
+}
+
+.ecsharp{
+
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 600px;
+}
+
+.pcsharp{
+
+  height: 200px;
+  margin-top: 0px;
+  margin-left: 150px;
+}
+
+.tecsharp{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  color: #FFFFFF;
+  font-size: 20px;
+  align-items: center;
+margin-left: 610px;
+margin-top: 5px;
+}
+
+.tpcsharp{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  color: #FFFFFF;
+  font-size: 20px;
+  align-items: center;
+  margin-top: -46px;
+  margin-left: 970px;
+
+}
