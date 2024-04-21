@@ -1075,3 +1075,42 @@ margin-left: 897px;
 margin-top: 5px;
 
 }
+
+.veille1{
+
+
+  height: 200px;
+  margin-top: 300px;
+  margin-left: -50px;
+  margin-right: 150px;
+
+}
+
+.v1txt{
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  color: #FFFFFF;
+  font-size: 20px;
+  align-items: center;
+margin-left: -23px;
+margin-top: 5px;
+
+}
+
+.v2txt{
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  color: #FFFFFF;
+  font-size: 20px;
+  align-items: center;
+  margin-top: -45px;
+  margin-left: 453px;
+
+
+}
+
+.pix{
+
+height: 50px;
+margin-top: 460px;
+margin-left: -150px;
+
+}
