@@ -722,7 +722,6 @@ margin-top: 50px;
 margin-top: 1900px;     
 margin-left: 100px;
 
-
 }
 
 .ppeb3:hover {
@@ -846,7 +845,7 @@ margin-left: 100px;
         text-decoration: none; 
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 margin-bottom: 1500px;     
-margin-left: 100px;
+margin-left: 50px;
 }
 
 .ppeb6:hover {
@@ -864,7 +863,7 @@ margin-left: 100px;
         text-decoration: none; 
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 margin-bottom: 1500px;     
-margin-left: 100px;
+margin-left: 50px;
 }
 
 .ppeb7:hover {
@@ -1017,5 +1016,43 @@ margin-top: 5px;
   align-items: center;
   margin-top: -46px;
   margin-left: 970px;
+
+}
+
+.laraveltxt{
+
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  align-content: center;
+  margin-left: -390px;
+  margin-top: 230px;
+}
+
+.tdlaravel{
+
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 850px;
+}
+
+.tdlaraveltxt{
+
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  color: #FFFFFF;
+  font-size: 20px;
+  align-items: center;
+margin-left: 920px;
+margin-top: 5px;
+}
+
+.ppe1txt{
+
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  align-content: center;
+  margin-left: -540px;
+  margin-top: 230px;
 
 }
